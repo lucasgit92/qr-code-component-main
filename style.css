@@ -17,9 +17,7 @@ img {
     max-width: 100%;
 }
 
-.QR{
-padding-left: 8%;
-}
+
 
 body {
      font-family: "Outfit", sans-serif;
@@ -30,16 +28,40 @@ body {
      align-items: center;
      justify-content: center;
      height: calc(100vh - 1px);
+     margin: 1.25rem;
 
 
 }
+
 
 .container {
     background-color: white;
     padding: 1.25rem;
     border-radius: 0.625rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.container img {
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.container h1{
+    color: darkblue;
+    text-align: center;
+}
+
+.container p{
+    color: var(--Grayish-blue);
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+        color: hsl(228, 45%, 44%); }
