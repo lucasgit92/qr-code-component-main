@@ -66,9 +66,9 @@ body {
     
 .attribution a { 
         color: hsl(228, 45%, 44%); }
-
-
-        @media( min-width: 500px){
+                    
+        
+        @media( min-width: 375px){
 .container{
     width: 400px;
 }
