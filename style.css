@@ -51,6 +51,7 @@ body {
 .container h1{
     color: darkblue;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .container p{
@@ -65,3 +66,5 @@ body {
     
 .attribution a { 
         color: hsl(228, 45%, 44%); }
+
+
